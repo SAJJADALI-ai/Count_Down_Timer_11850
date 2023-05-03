@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Timer</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>CountDown Timer</h1>
+  <div id="timer">
+    <div class="time-input">
+      <label for="hours">Hours:</label>
+      <input type="number" id="hours" min="0" max="23" value="0">
+    </div>
+    <div class="time-input">
+      <label for="minutes">Minutes:</label>
+      <input type="number" id="minutes" min="0" max="59" value="0">
+    </div>
+    <div class="time-input">
+      <label for="seconds">Seconds:</label>
+      <input type="number" id="seconds" min="0" max="59" value="0">
+    </div>
+  </div>
+  <button id="start-btn">Start</button>
+  <audio id="alert-sound" src="ss.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

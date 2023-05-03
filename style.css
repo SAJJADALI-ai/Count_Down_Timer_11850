@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-color:yellow;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.time-input {
+  margin-right: 10px;
+
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color:transparent;
+}
